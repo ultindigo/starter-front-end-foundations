@@ -1,4 +1,7 @@
 body {
+  font-family: 'Arial', sans-serif;
+  align-content: space-between;
+  background-color: palevioletred;
   padding: 10px;
 }
 

@@ -13,6 +13,50 @@
   </head>
 
   <body>
-    <main></main>
+    <main>
+      <form>
+        <div>
+          <label for="name">Name:</label>
+          <input id="name" type="text" name="name" />
+        </div>
+        <div>
+          <label for="location">Email:</label>
+          <input
+            id="location"
+            type="text"
+            name="zipcode"
+            autofocus="on"
+            maxlength="5"
+            required
+          />
+        </div>
+        <form>
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+          <div>
+            <label for="form-message">Your message:</label>
+            <textarea
+              id="form-message"
+              name="message"
+              autofocus="on"
+              required
+              maxlength="200"
+            ></textarea>
+          </div>
+        </form>
+        <form>
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+          <div>
+          <button type="submit">Submit</button>
+        </div>
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        <div>
+          <button type="reset">Reset</button>
+        </div>
+        <div>
+          <p>Thank you!!</p>
+        </div>
+        </form>
+      </form>      
+    </main>
   </body>
 </html>
